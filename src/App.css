@@ -1,5 +1,6 @@
 :root{
   --primary-color: #010bcc;
+  --secondary-color: #04fff9;
 }
 
 body{
@@ -61,4 +62,32 @@ body{
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #555;
+}
+
+.carrousel-clients{
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto 0;
+  display: flex;
+  gap: 64px;
+  text-align: center;
+  justify-content: center;
+}
+
+.carrousel-title{
+  text-align: center;
+  padding: .8rem 0 0 0;
+  color: #fff;
+}
+
+.carrousel-title span{
+  font-weight: 800;
+}
+
+.carrousel-clients img{
+  height: 2.25rem;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--secondary-color);
 }

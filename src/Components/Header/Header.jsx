@@ -1,17 +1,17 @@
 import React from 'react'
-import Logo from '../../assets/logo.webp'
+import Logo from '../../assets/logo2.webp'
 
 const Header = () => {
     return (
         <>
-            <header className="bg-white py-2">
+            <header className="bg-hero py-4">
                 <div className="mx-auto flex h-16 max-w-screen-xl items-center lg:gap-16 gap-6 px-4 sm:px-6 lg:px-8 font-medium">
                     <a className="block text-teal-600" href="#">
                         <img src={Logo} alt="Logo Next Boost Peru" className='logo-header' />
                     </a>
                     <div className="flex flex-1 items-center justify-end md:justify-between">
                         <nav aria-label="Global" className="hidden md:block">
-                            <ul className="flex items-center gap-6 text-sm">
+                            <ul className="flex items-center gap-6 text-sm text-white">
                                 <li>
                                     <a className="transition hover:text-gray-500/75" href="#"> Inicio </a>
                                 </li>
@@ -33,7 +33,7 @@ const Header = () => {
                         <div className="flex items-center gap-4">
                             <div className="sm:flex sm:gap-4">
                                 <a
-                                    className="block rounded-md px-5 py-2.5 text-sm font-medium text-white transition bg-primary"
+                                    className="block rounded-md px-5 py-2.5 text-sm font-medium text-white transition btn-outline"
                                     href="#"
                                 >
                                     <i className="bi bi-person-circle mr-2"></i>Ingresar
